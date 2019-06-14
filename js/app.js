@@ -128,3 +128,4 @@ var handleFormSubmit = function(formSubmitEvent){
   generateStoreData(locationName, parseInt(minCustomer), parseInt(maxCustomer), parseFloat(avgCookies));
 };
 form.addEventListener('submit', handleFormSubmit);
+/*===================================================
