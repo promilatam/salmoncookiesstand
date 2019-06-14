@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Sales Projection</title>
+  <link href="./css/style.css" type="text/css" rel="stylesheet">
+  
+</head>
+
+<body>
+  <header>
+    <p><a href="index.html"><img src="./img/salmon.png" alt="Home Logo"></a></p>
+  </header>
+  <main>
+      <form id="add-store">
+          <fieldset>
+            <legend>Stores</legend>
+            <label for="locationName">Location</label>
+            <input id="locationName" name="locationName">
+      
+            <label for="minCustomer">Min Customer per Hour</label>
+            <input id="minCustomer" name="minCustomer">
+      
+            <label for="maxCustomer">Max Customer per Hour</label>
+            <input id="maxCustomer" name="maxCustomer">
+      
+            <label for="avgCookies">Avg. Cookies per Sale</label>
+            <input id="avgCookies" name="avgCookies">
+      
+            <button type="submit">Add Store</button>
+          </fieldset>
+        </form>
+      <table id="sales-forecast">
+        <h4>Sales Forecast:</h4>
+          <tr>
+          <td></td>
+          <td>6:00am</td>
+          <td>7:00am</td>
+          <td>8:00am</td>
+          <td>9:00am</td>
+          <td>10:00am</td>
+          <td>11:00am</td>
+          <td>12:00pm</td>
+          <td>1:00pm</td>
+          <td>2:00pm</td>
+          <td>3:00pm</td>
+          <td>4:00pm</td>
+          <td>5:00pm</td>
+          <td>6:00pm</td>
+          <td>7:00pm</td>
+          <td>8:00pm</td>
+          <td>Daily Location Total</td>
+        </tr>   
+      </table>
+
+  </main>
+
+
+  <script src="./js/app.js"></script>
+</body>
+
+
+
+</html>
